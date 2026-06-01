@@ -22,14 +22,15 @@ body {
 nav {
     display: flex;
     background-color: var(--accent-dark);
-    height: 4rem;
+    height: 5vw;
+    border-bottom: 2px solid var(--dark-bg);
 }
 
 .nav-link {
     width: 100%;
     color: var(--white);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -50,7 +51,7 @@ nav {
 
 .hero h1 {
     font-family: var(--title-font);
-    font-size: 3rem;
+    font-size: 4vw;
     position: absolute;
     top: 0;
     left: 50%;
@@ -59,6 +60,7 @@ nav {
 
 .hero h2 {
     position: absolute;
+    font-size: 2vw;
     top: 75%;
     left: 50%;
     transform: translate(-50%);
